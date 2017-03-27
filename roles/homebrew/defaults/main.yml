@@ -2,22 +2,41 @@
 homebrew_taps:
   - { tap: homebrew/binary }
   - { tap: homebrew/dupes }
+  - { tap: fisherman/tap }
 
 homebrew_packages:
-  - { name: openssl }
+  # vcs
   - { name: git }
+  # downloader
   - { name: wget }
+  # libraries
+  - { name: openssl }
   - { name: curl }
-  - { name: fish }
+  - { name: readline }
+  - { name: sqlite }
+  - { name: mcrypt }
+  - { name: libpng }
+  - { name: libffi }
+  - { name: libyaml }
+  - { name: libxml2 }
+  - { name: gettext }
+  - { name: ffmpeg }
   - { name: pkg-config }
-  - { name: tree }
+  # ruby
   - { name: rbenv }
   - { name: ruby-build }
+  # utils
   - { name: gnu-sed }
-  - { name: ffmpeg }
-  - { name: composer }
+  - { name: tree }
+  - { name: jq }
+  # server
   - { name: mariadb }
   - { name: dynamodb-local }
   - { name: awscli }
   - { name: terraform }
   - { name: packer }
+  # shell
+  - { name: fish }
+  - { name: fisherman }
+  #php
+  - { name: composer }
