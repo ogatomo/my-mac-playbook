@@ -1,0 +1,23 @@
+---
+homebrew_taps:
+  - { tap: homebrew/binary }
+  - { tap: homebrew/dupes }
+
+homebrew_packages:
+  - { name: openssl }
+  - { name: git }
+  - { name: wget }
+  - { name: curl }
+  - { name: fish }
+  - { name: pkg-config }
+  - { name: tree }
+  - { name: rbenv }
+  - { name: ruby-build }
+  - { name: gnu-sed }
+  - { name: ffmpeg }
+  - { name: composer }
+  - { name: mariadb }
+  - { name: dynamodb-local }
+  - { name: awscli }
+  - { name: terraform }
+  - { name: packer }

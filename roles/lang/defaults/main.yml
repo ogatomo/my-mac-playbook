@@ -1,0 +1,10 @@
+---
+gem_packages:
+  - { name: bundler }
+  - { name: pry }
+  - { name: terraforming }
+  - { name: cocoapods }
+
+npm_packages:
+  - { name: http-console }
+  - { name: serverless }
