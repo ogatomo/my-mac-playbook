@@ -1,0 +1,5 @@
+---
+- name: Clone my fish config
+  git:
+    repo: 'git@github.com:ogatomo/fish_config.git'
+    dest: '/Users/{{ ansible_user_id }}/.config/fish'

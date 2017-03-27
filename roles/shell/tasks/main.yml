@@ -1,0 +1,4 @@
+---
+- include: fish.yml
+  tags:
+    - fish
