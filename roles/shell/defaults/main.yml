@@ -1,4 +1,5 @@
 ---
 fisherman_packages:
+- { name: "oh-my-fish/theme-bobthefish" }
 - { name: "oh-my-fish/plugin-extract" }
 - { name: "fzf" }

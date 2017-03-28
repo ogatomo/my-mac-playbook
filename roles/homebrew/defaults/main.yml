@@ -3,6 +3,7 @@ homebrew_taps:
   - { tap: homebrew/binary }
   - { tap: homebrew/dupes }
   - { tap: fisherman/tap }
+  - { tap: sanemat/font }
 
 homebrew_packages:
   # vcs
@@ -39,5 +40,6 @@ homebrew_packages:
   - { name: fish }
   - { name: fisherman }
   - { name: fzf }
+  - { name: ricty }
   #php
   - { name: composer }
