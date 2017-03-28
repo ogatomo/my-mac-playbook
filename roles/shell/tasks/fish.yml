@@ -3,3 +3,17 @@
   git:
     repo: 'git@github.com:ogatomo/fish_config.git'
     dest: '/Users/{{ ansible_user_id }}/.config/fish'
+
+- name: Install fisherman packages
+  shell: |
+    fisher install {{ item.name }}
+  args:
+    executable: /usr/local/bin/fish
+  with_items:
+    - "{{ fisherman_packages }}"
+
+- name: update completions
+  shell: |
+    fish_update_completions
+  args:
+    executable: /usr/local/bin/fish

@@ -38,5 +38,6 @@ homebrew_packages:
   # shell
   - { name: fish }
   - { name: fisherman }
+  - { name: fzf }
   #php
   - { name: composer }
