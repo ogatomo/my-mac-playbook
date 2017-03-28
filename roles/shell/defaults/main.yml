@@ -1,3 +1,4 @@
 ---
 fisherman_packages:
-  - { name: fzf }
+- { name: "oh-my-fish/plugin-extract" }
+- { name: "fzf" }
