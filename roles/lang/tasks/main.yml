@@ -6,3 +6,7 @@
 - include: npm.yml
   tags:
     - npm
+
+- include: python.yml
+  tags:
+    - python

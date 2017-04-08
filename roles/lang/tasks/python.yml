@@ -1,0 +1,4 @@
+---
+- name: Create .pyenv/bin
+  become: True
+  file: path=/Users/{{ ansible_user_id }}/.pyenv/bin state=directory owner={{ ansible_user_id }} mode=0755
