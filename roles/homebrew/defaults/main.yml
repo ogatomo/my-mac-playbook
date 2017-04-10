@@ -33,7 +33,6 @@ homebrew_packages:
   - { name: jq }
   # server
   - { name: mariadb }
-  - { name: dynamodb-local }
   - { name: awscli }
   - { name: terraform }
   - { name: packer }
@@ -44,3 +43,5 @@ homebrew_packages:
   - { name: ricty }
   #php
   - { name: composer }
+  #java
+  - { name: maven }
