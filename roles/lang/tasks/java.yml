@@ -1,4 +1,0 @@
----
-- name: Create .maven/jars
-  become: True
-  file: path=/Users/{{ ansible_user_id }}/.maven/jars state=directory owner={{ ansible_user_id }} mode=0755

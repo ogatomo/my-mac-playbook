@@ -10,5 +10,5 @@ $ brew install ansible
 ```
 
 ```bash
-$ ansible-playbook site.yml -vvvv --ask-become-pass
+$ ansible-playbook site.yml -vvvv
 ```

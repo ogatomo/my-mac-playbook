@@ -16,8 +16,7 @@
     - Change Ruby version
 
 - name: Create .rbenv/bin
-  become: True
-  file: path=/Users/{{ ansible_user_id }}/.rbenv/bin state=directory owner={{ ansible_user_id }} mode=0755
+  file: path=/Users/{{ ansible_user_id }}/.rbenv/bin state=directory mode=0755
 
 - name: Flush handlers
   meta: flush_handlers
